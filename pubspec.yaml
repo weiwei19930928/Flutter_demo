@@ -11,6 +11,13 @@ description: A new Flutter application.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+<<<<<<< HEAD
+=======
+
+#下面定义了应用程序的版本和构建号。版本号是三个由点分隔的数字，比如1.2.43，后面跟着一个由+分隔的可选构建号。通过分别指定—build-name
+#和—build-number，可以在flutter build中覆盖版本和构建器编号。在Android中，build-name用作versionName, build-number用作versionCode
+# iOS, build-name用作CFBundleShortVersionString, build-number用作CFBundleVersion
+>>>>>>> dev
 version: 1.0.0+1
 
 environment:
@@ -24,7 +31,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
+<<<<<<< HEAD
 dev_dependencies:
+=======
+  flutter_swiper: ^1.1.6
+  dio: ^2.1.10
+  fluttertoast: ^3.1.0
+  cached_network_image: ^1.0.0
+
+dev_dependencies:
+  http: ^0.12.0+1
+>>>>>>> dev
   flutter_test:
     sdk: flutter
 
@@ -33,6 +50,10 @@ dev_dependencies:
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
+<<<<<<< HEAD
+=======
+#下面的部分是专门针对flutter的。
+>>>>>>> dev
 flutter:
 
   # The following line ensures that the Material Icons font is

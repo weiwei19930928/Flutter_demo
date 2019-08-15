@@ -3,6 +3,10 @@ import 'allpage/BottomAppBarDemo.dart';
 import 'allpage/BottomNavigationWidget.dart';
 import 'allpage/FrostedGlassDemo.dart';
 
+<<<<<<< HEAD
+=======
+//Dart规定async标记的函数，只能由await来调用
+>>>>>>> dev
 void main() =>runApp(new MyApp());
 
 class MyApp extends StatelessWidget{

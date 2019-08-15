@@ -8,8 +8,13 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
+<<<<<<< HEAD
         android:label="flutter_app"
         android:icon="@mipmap/ic_launcher">
+=======
+        android:label="flutter学习"
+        android:icon="@mipmap/map_data11">
+>>>>>>> dev
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
